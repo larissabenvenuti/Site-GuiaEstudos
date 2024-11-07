@@ -1,0 +1,64 @@
+.container {
+  width: 68%;
+  margin: 0 auto;
+  padding: 20px 8%;
+}
+
+.title {
+  font-size: 2.0rem;
+  color: steelblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subtitle{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #000000;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.paragraphOne{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1.0rem;
+  color: #000000;
+  margin-bottom: 10px;
+  border: 1px solid steelblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.paragraph{
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1.0rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.list {
+  margin-top: 15px;
+}
+
+.listItem a {
+  margin: 15px 0;
+  text-align: left;
+  text-decoration: none;
+  color: steelblue;
+  font-weight:550;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.listItem a:hover {
+  color: #000000;
+}
+

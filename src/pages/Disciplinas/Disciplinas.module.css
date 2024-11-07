@@ -1,0 +1,154 @@
+.dcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(70% 70%, #bde2ff, #83b8e4, steelblue);
+    width: 90%;
+    max-width: 300px;
+    border: solid 2px #1c1c1c;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 5px;
+}
+
+.dline {
+    width: 90%;
+    border: 1px solid #1c1c1c;
+}
+
+.dlineTwo {
+    width: 90%;
+    border: 1px dashed #1c1c1c;
+    margin-bottom: 15px;
+}
+
+.dcard__header, .dcard__footer, .dcard__main {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.dcard__header button {
+    cursor: pointer;
+    background-color: firebrick;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 25%;
+}
+
+.dcard__header button:hover {
+    background-color: seagreen;
+}
+
+.dcard__footer,
+.dcard__main {
+    font-size: 1.0rem;
+}
+
+.dmain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dbutton {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #041b32;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto;
+    max-width: 200px;
+    text-align: center;
+}
+
+.dbutton:hover {
+    background-color: seagreen;
+}
+
+.buttonArea {
+    display: flex;
+    margin-bottom: 35px 0;
+    justify-content: center;
+}
+
+.dform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 3vw;
+    overflow: hidden;
+    background-color: #95dab3;
+}
+
+.dfField {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.dfField > label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    color: #000000;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.dfField > input {
+    margin: 5px;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid steelblue;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .dcard {
+        width: 95%; 
+    }
+
+    .dform {
+        width: 90%;
+    }
+
+    .dbutton {
+        max-width: none; 
+    }
+}
+
+@media (max-width: 480px) {
+    .dcard {
+        width: 100%; 
+    }
+
+    .dform {
+        width: 95%;
+    }
+
+    .dbutton {
+        width: 100%;
+    }
+
+    .dfField > input {
+        width: 100%;
+    }
+}
