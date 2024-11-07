@@ -1,8 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Site que é um Guia de Estudos para auxiliar alunos da Residência em TIC/Software do Serratec.
+#### O site consta com:
+- Contador com método Pomodoro;
+- Disciplinas que podem ser atualizadas, inseridas ou excluídas;
+- Sistema de Login para armazenamento de dados.
+#### O site deve:
+- estar ligado em um banco de dados para funcionamento.
+### Site feito como projeto final para a disciplina de React da Residência em TIC/Software do Serratec, da qual participo durante o período de 2024.2.
